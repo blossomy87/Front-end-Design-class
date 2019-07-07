@@ -5,8 +5,8 @@
 - [Front end Design Class 과정 생성](https://github.com/blossomy87/Front-end-Design-class)
 
 <br>
+![Github 아이콘](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-- ![Github 아이콘](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 <br>
 
 ### 프로젝트  관리
