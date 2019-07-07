@@ -1,7 +1,22 @@
 # DAY-1일차 
+
 ## 1. 학습 준비하기
-- [x] 계정 생성
-- [Github 과정 생성](https://github.com/blossomy87/Front-end-Design-class)
+### Github 계정 생성
+- [Front end Design Class 과정 생성](https://github.com/blossomy87/Front-end-Design-class)
+
+<br>
+
 - ![Github 아이콘](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-- [ ] 프로젝트  관리
-- [ ] VS Code 사용
+<br>
+
+### 프로젝트  관리
+
+1. Front end Design Class 과정 생성
+1. Github.io 페이지 생성
+
+<br>
+
+### VS Code 사용
+
+1.
+1.
