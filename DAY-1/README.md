@@ -1,19 +1,28 @@
 # DAY-1일차 
 
-## 1. 학습 준비하기
-### Github 계정 생성
-- [Front end Design Class 과정 생성](https://github.com/blossomy87/Front-end-Design-class)
+## 1. 계정 생성
+
+1. Github 계정 생성 [x]
+-  [Github 계정 생성](https://github.com/blossomy87)
 
 <br>
 
 ![Github 아이콘](../images/GitHub-Mark.png)
 
+2. GitLab 계정 생성 [ ]
+-  [Gitlab 계정 생성]()
+
 <br>
 
-### 프로젝트  관리
+## 2. 프로젝트 관리 
 
-1. [Front end Design Class](https://github.com/blossomy87/Front-end-Design-class) 과정 생성
-1. [Github.io](https://github.com/blossomy87/blossomy87.github.io) 페이지 생성
+1. [x] Github Project
+    - [Front end Design Class](https://github.com/blossomy87/Front-end-Design-class) 과정 생성
+    - [Github.io](https://github.com/blossomy87/blossomy87.github.io) 페이지 생성
+
+2. [ ] Gitlab Project
+    - [Front end Design Class]() 과정 생성
+    - [Gitlab.io]() 페이지 생성
 
 <br>
 
