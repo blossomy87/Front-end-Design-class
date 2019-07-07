@@ -2,15 +2,14 @@
 
 ## 1. 계정 생성
 
-1. Github 계정 생성 [x]
+[x] 1.  Github 계정 생성 
 -  [Github 계정 생성](https://github.com/blossomy87)
-
 <br>
 
 ![Github 아이콘](../images/GitHub-Mark.png)
 
-2. GitLab 계정 생성 [ ]
--  [Gitlab 계정 생성]()
+[x] 2. GitLab 계정 생성 
+-  [Gitlab 계정 생성](https://gitlab.com/blossomy87)
 
 <br>
 
