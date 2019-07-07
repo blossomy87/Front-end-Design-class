@@ -6,7 +6,7 @@
 
 <br>
 
-![Github 아이콘](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Github 아이콘](../images/GitHub-Mark.png)
 
 <br>
 
