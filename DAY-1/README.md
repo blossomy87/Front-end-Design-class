@@ -19,12 +19,12 @@
 
 ### VS Code 사용
 
-1.[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) 설치
+1. [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) 설치
 
-1.단축키 
-- Upload Key : `Shift + Alt + U`
-- Download Key: `Shift + Alt + D`
+1. 단축키 
+    - Upload Key : `Shift + Alt + U`
+    - Download Key: `Shift + Alt + D`
 
-1.[Gist 생성](https://gist.github.com/blossomy87)
+1. [Gist 생성](https://gist.github.com/blossomy87)
 
-- Gist 관리 : https://gist.github.com/blossomy87
+    - Gist 관리 : https://gist.github.com/blossomy87
