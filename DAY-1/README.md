@@ -21,7 +21,7 @@
 
 2. [x] Gitlab Project
     - [Front end Design Class](https://gitlab.com/blossomy87/front-end-design-class.git) 과정 생성
-    - [Gitlab.io]() 페이지 생성
+    - [Gitlab.io](https://gitlab.com/blossomy87/blossomy87.gitlab.io.git) 페이지 생성
 
 <br>
 
