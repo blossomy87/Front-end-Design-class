@@ -1,0 +1,3 @@
+// mac 생성 파일 제거 
+.DS_Store
+*.DS_Store
