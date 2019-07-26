@@ -35,8 +35,8 @@
      >**font-size: 1rem;** 은 html (or body)에서 설정한 폰트 크기를 기준으로 계산된다 
 
        `ex) html { font-size : 16px; }<br>
-            div { font-size : 20px; width : 10rem; }<br>
-            **16 x 10 = 160px** 본문 기준으로 계산한다` <br>
+            div { font-size : 20px; width : 10rem; }`<br>
+        **16 x 10 = 160px** 본문 기준으로 계산한다 <br>
 
 - 단위 공식 
     - PX to REM = size in pixels / root size pixel<br>
