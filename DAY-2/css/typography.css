@@ -1,9 +1,14 @@
+html {
+    font-size:10px;
+}
+
 body {
     font-size: 16px;
     line-height: 1.5;
+    display: inline-block;
 }
 .reading:hover {
-    background-image: url("/DAY-2/images/baseline_24.png");
+    background-image: url("/images/baseline_24.png");
 }
 p {
     /* background: #c6c7d8; */
@@ -18,7 +23,7 @@ h1 {
     padding: 2px 0; */
 
     /* rem 단위 설정 */
-    font-size: 3.813rem;
+    font-size: 6.103rem;
     
 }
 h2 {
@@ -28,7 +33,7 @@ h2 {
     font-size: 3.051758em; */
 
     /* rem 단위 설정 */
-    font-size: 3rem;
+    font-size: 4.882rem;
    
 }
 h3 {
@@ -39,7 +44,7 @@ h3 {
     padding: 7px 0; */
 
     /* rem 단위 설정 */
-    font-size: 2.438rem;
+    font-size: 3.906rem;
 }
 h4 {
     /* font-size: 31.25px; */
@@ -49,7 +54,7 @@ h4 {
     padding: 1px 0; */
 
     /* rem 단위 설정 */
-    font-size: 1.953rem; 
+    font-size: 3.125rem; 
 }
 h5 {
     /* font-size: 25px; */
@@ -59,7 +64,7 @@ h5 {
     padding: 6px 0; */
 
     /* rem 단위 설정 */
-    font-size: 1.563rem;
+    font-size: 2.5rem;
 }
 h6 {
     /* px 단위 설정 */
@@ -70,5 +75,5 @@ h6 {
     padding: 8px 0; */
 
     /* rem 단위 설정 */
-    font-size: 1.25rem; 
+    font-size: 2rem; 
 }
