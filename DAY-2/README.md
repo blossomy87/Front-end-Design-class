@@ -58,7 +58,11 @@
 
 <br>
             
+### 참고
 
-![](http://pxtoem.com/)
+- [Grid Lover](https://www.gridlover.net/try)
+- [px/em 단위계산](http://pxtoem.com/)
+- [Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
 <br>
 
+## 1. 제목 설정 (H1~H6)
