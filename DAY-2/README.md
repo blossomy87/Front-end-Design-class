@@ -12,12 +12,12 @@
 
 - 제목 크기 (기본 16px 기준)
 
-    'H1' font-size: 32px , 2em
-    'H2' font-size: 24px , 1.5em
-    'H3' font-size: 19px , 1.33em
-    'H4' font-size: 16px , 1.17em
-    'H5' font-size: 13px , 0.83em
-    'H6' font-size: 11px , 0.67em
+    '<H1>' font-size: 32px , 2em
+    '<H2>' font-size: 24px , 1.5em
+    '<H3>' font-size: 19px , 1.33em
+    '<H4>' font-size: 16px , 1.17em
+    '<H5>' font-size: 13px , 0.83em
+    '<H6>' font-size: 11px , 0.67em
 
 ## 2. 웹 폰트 설정 단위 
 - 웹 폰트 설정 사용 단위 'px, em, rem, %, vw, vh'
