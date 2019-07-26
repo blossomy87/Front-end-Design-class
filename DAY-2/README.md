@@ -34,9 +34,9 @@
      - **rem(Root em)** : 루트 엘리먼트(html)의 폰트 크기를 결정한다 <br><br>
      >**font-size: 1rem;** 은 html (or body)에서 설정한 폰트 크기를 기준으로 계산된다 
 
-       `ex) html { font-size : 16px; }<br>
-            div { font-size : 20px; width : 10rem; }`<br>
-        **16 x 10 = 160px** 본문 기준으로 계산한다 <br>
+       `ex) html { font-size : 16px; }
+            div { font-size : 20px; width : 10rem; }`
+        - **16 x 10 = 160px** 본문 기준으로 계산한다
 
 - 단위 공식 
     - PX to REM = size in pixels / root size pixel<br>
