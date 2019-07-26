@@ -1,38 +1,39 @@
-# DAY-2일차
+# DAY-2일차 
 
-## 타이포그래피 설계
+## 1. 제목 설정 (H1~H6)
 
-> max-width : 1366px 기준 타이포그래피 설정 <br>
-> 타이포그래피 설정 참고 사이트 [https://grtcalculator.com/](https://grtcalculator.com/)
+- 기본 제목 설정
 
-### 1. 제목 (H1 ~ H6)설정
-- #### 제목 크기 
-  `<H1>`   font size : 42px <br>
-  `<H2>`   font size : 33px <br>
-  `<H3>`   font size : 26px <br>
-  `<H4>`   font size : 20px <br>
-  `<H5>`   font size : 16px <br>
-  `<H6>`   font size : 13px <br>
+브라우저 기본 사이즈는 '16px' 기준으로 (H1 - H4)의 스케일은 상향되고, (H5 -H6)의 스케일은 하향된다
+> 대부분의 브라우저 폰트 사이즈의 기본 값은 12pt, 16px, 1em, 100% 이다 
+> max-width : 1366px 기준 , 본문 폰트 16px 로 설정
 
-- #### 자간 설정
-  `<H1>`   Letter-spacing : 0em <br>
-  `<H2>`   Letter-spacing : 1.2em <br>
-  `<H3>`   Letter-spacing : 1.615em <br>
-  `<H4>`   Letter-spacing : 2.1em <br>
-  `<H5>`   Letter-spacing : 2.625em <br>
-  `<H6>`   Letter-spacing : 3.230em <br>
+- 제목 크기 (기본 16px 기준)
 
-- #### 행간 설정
-  `<H1>`   Line-height: 0em <br>
-  `<H2> - <H6>`  Line-height : 1.5em <br>
+'H1' font-size: 32px , 2em
+'H2' font-size: 24px , 1.5em
+'H3' font-size: 19px , 1.33em
+'H4' font-size: 16px , 1.17em
+'H5' font-size: 13px , 0.83em
+'H6' font-size: 11px , 0.67em
 
-<br>
+## 2. 웹 폰트 설정 단위 
+- 웹 폰트 설정 사용 단위 'px, em, rem, %, vw, vh'
 
-### 2. 본문 (Paragraph)설정
+      '절대 단위 (absolute)' : px, pt
+      '상대 단위 (relative)' : em, rem, %, vw, vh
 
-- #### 본문 크기
-- #### 자간 설정 
-- #### 행간 설정 
+     - 'em' : 상위 요소 크기를 정할 때 '몇 배'로 정할지를 나타낸다 
+       'font-size: 1.5em;' 은 글자 크기를 상위 요소 크기의 1.5배로 하겠다는 뜻이다 
 
+       ex) 16(px) x 1.5 = 24px
+
+     - 'rem(Root em)'는 문서의 '최상위 단위'를 의미한다
+       'd
+
+    'ex) 13px = 13/16 = 0.83em' 
+    'ex) 32px = 32/16 = 2em'
+
+![](http://pxtoem.com/)
 <br>
 
