@@ -2,7 +2,6 @@
 
 ## 1. 제목 설정 (H1~H6)
 
-> 대부분의 브라우저 폰트 사이즈의 기본 값은 12pt, 16px, 1em, 100% 이다 <br>
 > max-width : 1366px 기준 , 본문 폰트 16px 로 설정
 
 - 기본 제목 설정
@@ -20,7 +19,17 @@
     <H6> `H6` font-size: 11px , 0.67em <br>
 <br>
 
-## 2. 웹 폰트 설정 단위 
+## 2. 본문 설정 (Paragraph)
+
+- 브라우저 기본 폰트 사이즈 
+    - 16px / 1.2 기본 설정
+
+> 대부분의 브라우저 폰트 사이즈의 기본 값은 12pt, 16px, 1em, 100% 이다 <br>
+
+- 국문, 영문 폰트 사이즈 
+    - 국문 폰트 13~14px 사용
+    - 영문 폰트 16px 사용 
+
 - 웹 폰트 설정 사용 단위 'px, em, rem, %, vw, vh'
 
       '절대 단위 (absolute)' : px, pt
@@ -65,4 +74,10 @@
 - [Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
 <br>
 
-## 1. 제목 설정 (H1~H6)
+## 3. 자간, 행간 설정 
+
+- Text 기준 : `Base-Line (Line-Height)`
+- 레이아웃, 레이어, 컨테이너 기준 : `Base-Line (Height Gap)`
+
+> 브라우저마다 'Line-Height' 영역을 정확히 못 잡을 떄가 있다 
+**해결방법** : `Padding`으로 남은 영역을 채워준다 (Padding-Bottom)
