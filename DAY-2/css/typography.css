@@ -13,46 +13,62 @@ p {
 h1 {
     /* font-size: 61.035156px; */
 
-    /* em 단위 설정 */
+    /* em 단위 설정 
     font-size: 3.814698em;
-    padding: 2px 0;
+    padding: 2px 0; */
+
+    /* rem 단위 설정 */
+    font-size: 3.813rem;
+    
 }
 h2 {
     /* font-size: 48.828125px; */
 
-     /* em 단위 설정 */
-     font-size: 3.051758em;
+    /* em 단위 설정 
+    font-size: 3.051758em; */
+
+    /* rem 단위 설정 */
+    font-size: 3rem;
+   
 }
 h3 {
     /* font-size: 39.0625px; */
 
-    /* em 단위 설정 */
+    /* em 단위 설정 
     font-size: 2.441406em;
-    padding: 7px 0;
+    padding: 7px 0; */
+
+    /* rem 단위 설정 */
+    font-size: 2.438rem;
 }
 h4 {
     /* font-size: 31.25px; */
 
-    /* em 단위 설정 */
+    /* em 단위 설정 
     font-size: 1.953125em;
-    padding: 1px 0;
+    padding: 1px 0; */
+
+    /* rem 단위 설정 */
+    font-size: 1.953rem; 
 }
 h5 {
     /* font-size: 25px; */
 
-    /* em 단위 설정 */
+    /* em 단위 설정 
     font-size: 1.5625em;
-    padding: 6px 0;
+    padding: 6px 0; */
 
+    /* rem 단위 설정 */
+    font-size: 1.563rem;
 }
 h6 {
     /* px 단위 설정 */
     /* font-size: 20px; */
 
-    /* em 단위 설정 */
+    /* em 단위 설정 
     font-size: 1.25em;
-    padding: 8px 0;
+    padding: 8px 0; */
 
     /* rem 단위 설정 */
-    /* font-size: 1.25rem; */
+    font-size: 1.25rem; 
 }
