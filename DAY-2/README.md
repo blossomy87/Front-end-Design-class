@@ -26,16 +26,38 @@
       '절대 단위 (absolute)' : px, pt
       '상대 단위 (relative)' : em, rem, %, vw, vh
 
-     - **em** : 상위 요소 크기를 몇 배로 정할지를 나타낸다 <br><br>
+     - **em** : 엘리먼트의 폰트 크기를 결정한다 <br><br>
      >**font-size: 1.5em;** 은 글자 크기를 `상위 요소 크기의 1.5`배로 하겠다는 것을 뜻한다 
 
-       `ex) 16(px) x 1.5 = 24px`
+       `ex) 16(px) x 1.5(em) = 24px`
 
-     - **rem(Root em)** : 문서의 `최상위 단위`를 의미한다 <br><br>
-       '
+     - **rem(Root em)** : 루트 엘리먼트(html)의 폰트 크기를 결정한다 <br><br>
+     >**font-size: 1rem;** 은 html (or body)에서 설정한 폰트 크기를 기준으로 계산된다   
+       `ex) html { font-size : 16px; }<br>
+            div { font-size : 20px; width : 10rem; } <br>
+            **16 x 10 = 160px** 본문 기준으로 계산한다 <br>
 
-    'ex) 13px = 13/16 = 0.83em' 
-    'ex) 32px = 32/16 = 2em'
+- 단위 공식 
+    - PX to REM = size in pixels / root size pixel<br>
+    ex) 16px / 10px(body) = 1.6rem
+
+   - PX to EM = size in pixels / parent size in pixel<br>
+    ex) 12px / 16px = 0.75em
+
+   - PX to % = size in pixels / parent size in pixels<br>
+    ex) 12px / 16px * 100 = 75%
+
+   - PX to PT = size in pixels * (points per inch / pixels per inch)<br>
+    ex) 16px * (72pt / 96px) = 12pt
+
+   - EM to PX = size in EMs * parent size in pixels<br>
+    ex) 0.75em * 16px = 12px
+
+   - EM to % = size in EMs * 100<br>
+    ex) 0.75em * 100 = 75%
+
+<br>
+            
 
 ![](http://pxtoem.com/)
 <br>
