@@ -7,15 +7,17 @@ body {
     line-height: 1.5;
     display: inline-block;
 }
+
 .reading:hover {
     background-image: url("../images/baseline_24.png");
 }
-p {
+p { 
     /* background: #c6c7d8; */
     margin-bottom: 24px;
 }
 
-h1 {
+
+h1 { 
     /* font-size: 61.035156px; */
 
     /* em 단위 설정 
@@ -25,8 +27,9 @@ h1 {
     /* rem 단위 설정 */
     font-size: 6.103rem;
     padding: 2px 0;
+    
 }
-h2 {
+h2 { 
     /* font-size: 48.828125px; */
 
     /* em 단위 설정 
@@ -35,6 +38,7 @@ h2 {
     /* rem 단위 설정 */
     font-size: 4.882rem;
     padding: 1px 0;
+    display: inline-block;
 }
 h3 {
     /* font-size: 39.0625px; */
