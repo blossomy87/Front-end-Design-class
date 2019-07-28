@@ -79,5 +79,5 @@
 - Text 기준 : `Base-Line (Line-Height)`
 - 레이아웃, 레이어, 컨테이너 기준 : `Base-Line (Height Gap)`
 
-> 브라우저마다 'Line-Height' 영역을 정확히 못 잡을 떄가 있다 
+> 브라우저마다 'Line-Height' 영역을 정확히 못 잡을 때가 있다 
 **해결방법** : `Padding`으로 남은 영역을 채워준다 (Padding-Bottom)
