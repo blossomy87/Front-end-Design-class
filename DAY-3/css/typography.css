@@ -9,9 +9,10 @@ body {
     font-family: 'Gothic A1', sans-serif;
 }
 
-.reading:hover {
+.typography-wrap:hover {
     background-image: url("../images/baseline_24.png");
 }
+
 .vertical p{ 
     /* background: #c6c7d8; */
     margin-bottom: 24px;
