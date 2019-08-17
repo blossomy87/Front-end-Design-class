@@ -17,16 +17,20 @@
    
 ## 2. 하이퍼링크(Anchor)설정
 
-- `<a href="">` 태그는 다른 문서와 연결(Link)하는 역할을 한다 
+- `<a href="">` 태그는 다른 문서와 연결(Link)하는 역할을 한다 <br>
+
 - HTML
 
-'<a href="http://naver.com" target="_blank"> 네이버 사이트로 이동 </a>'<br>
+```html
+<a href="http://naver.com" target="_blank"> 네이버 사이트로 이동 </a>```<br>
 
 - CSS
 
-'a  {color: #34c0ff;}
- a:hover {color: #185477;} /* 마우스오버 상태 */
- a:focus {outline: 1px solid #76d8ff;} /* 키보드 접근 상태 */'<br>
+```css
+a  { color: #34c0ff;}
+a:hover {color: #185477;} /* 마우스오버 상태 */
+ a:focus {outline: 1px solid #76d8ff;} /* 키보드 접근 상태 */
+ ```<br>
 
 ## 3. 목록 리스트 설정
 
