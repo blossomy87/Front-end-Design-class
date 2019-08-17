@@ -17,7 +17,7 @@
    
 ## 2. 하이퍼링크(Anchor)설정
 
-- ₩<a href="">₩ 태그는 다른 문서와 연결(Link)하는 역할을 한다 
+- `<a href="">` 태그는 다른 문서와 연결(Link)하는 역할을 한다 
 - HTML
 
 '<a href="http://naver.com" target="_blank"> 네이버 사이트로 이동 </a>'<br>
