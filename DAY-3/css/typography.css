@@ -102,6 +102,7 @@ h6 {
 }
 .vertical-24p {
     margin-bottom: 24px;
+    padding: 12px 0;
 }
 /*
 .text-area {
@@ -116,10 +117,10 @@ h6 {
 .text-area {
         float: left;
         width: 410px;
-        margin-right: 30px;
+        margin-right: 60px;
         border: 1px solid #000;
         box-sizing: border-box;
-        padding: 10px;
+        padding: 11px;
 }
 
 .text-area:last-child {
