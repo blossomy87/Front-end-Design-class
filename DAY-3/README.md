@@ -22,7 +22,10 @@
 - HTML
 
 ```html
-<a href="http://naver.com" target="_blank"> 네이버 사이트로 이동 </a>```<br>
+<a href="http://naver.com" target="_blank"> 
+네이버 사이트로 이동 
+</a>
+```
 
 - CSS
 
@@ -30,56 +33,104 @@
 a  { color: #34c0ff;}
 a:hover {color: #185477;} /* 마우스오버 상태 */
  a:focus {outline: 1px solid #76d8ff;} /* 키보드 접근 상태 */
- ```<br>
+ ```
+ <br>
 
 ## 3. 목록 리스트 설정
 
-- '<li>' 태그 (List Item)
+- `<li>` 태그 (List Item)
 
      - 목록의 항목 (ol, ul의 list)
 
-- '<ol>' 태그 (Ordered List)
+- `<ol>` 태그 (Ordered List)
 
      - 순서가 있는 목록 
 
-     - **rem(Root em)** : 루트 엘리먼트(html)의 폰트 크기를 결정한다 <br><br>
-     >**font-size: 1rem;** 은 html (or body)에서 설정한 폰트 크기를 기준으로 계산된다 
-
-       `ex) html { font-size : 16px; }
-            div { font-size : 20px; width : 10rem; }`/*160*/
-
-- 단위 공식 
-    - PX to REM = size in pixels / root size pixel<br>
-    ex) 16px / 10px(body) = 1.6rem
-
-   - PX to EM = size in pixels / parent size in pixel<br>
-    ex) 12px / 16px = 0.75em
-
-   - PX to % = size in pixels / parent size in pixels<br>
-    ex) 12px / 16px * 100 = 75%
-
-   - PX to PT = size in pixels * (points per inch / pixels per inch)<br>
-    ex) 16px * (72pt / 96px) = 12pt
-
-   - EM to PX = size in EMs * parent size in pixels<br>
-    ex) 0.75em * 16px = 12px
-
-   - EM to % = size in EMs * 100<br>
-    ex) 0.75em * 100 = 75%
-
-<br>
-            
-### 참고
-
-- [Grid Lover](https://www.gridlover.net/try)
-- [px/em 단위계산](http://pxtoem.com/)
-- [Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
+- HTML
+```html
+<ol>
+    <li>리스트1</li>
+    <li>리스트2</li>
+</ol>
+````
 <br>
 
-## 3. 자간, 행간 설정 
 
-- Text 기준 : `Base-Line (Line-Height)`
-- 레이아웃, 레이어, 컨테이너 기준 : `Base-Line (Height Gap)`
+- `<ul>` 태그 (UnOrdered List)
 
-> 브라우저마다 'Line-Height' 영역을 정확히 못 잡을 때가 있다 
-**해결방법** : `Padding`으로 남은 영역을 채워준다 (Padding-Bottom)
+     - 순서가 없는 목록 
+
+- HTML
+```html
+<ul>
+    <li>리스트</li>
+    <li>리스트</li>
+</ul>
+````
+
+<br>
+
+- `<dl>` 태그 (Definition List)
+	- 정의 목록(용어 목록)
+
+- `<dt>` 태그 (definition term)
+  - 정의 용어(용어 제목)
+
+- `<dd>` 태그 (definition description)
+  - 정의 설명(용어 설명)
+
+- HTML
+```html
+<dl>
+  <dt>정의 1</dt>
+  <dd>정의 1</dd>
+  <dt>정의 2</dt>
+  <dd>정의 2 </dd>
+</dl>
+```
+
+### 레이아웃 구성
+
+- Header 영역
+  - 웹페이지를 나타내는 로고 또는 소개글
+  - `<header>` 영역 태그
+
+- Navigation 영역
+  - 웹페이지에서 다른 페이지로 이동하는 메뉴
+  - `<nav>` 영역 태그
+
+- Conteiner 영역
+  - 웹 페이지의 내용(Content)
+  - `<section>`, `<article>`, `<aside>` 영역 태그
+
+- Footer 영역
+  - 웹 페이지와 관련된 정보
+  - `<footer>` 영역 태그
+
+
+### 리셋(Reset)CSS 작성 
+
+- 폰트 설정 
+  - `10px`로 계산하는 것이 더 편리하다 
+  - 이후 자간,행간 설정 시 Padding값을 별도로 지정하며 조절한다 
+
+- `reset.css`는 최소한으로 설정 
+  - 프로젝트별 reset.css를 추가 구성 해줄 수 있다 
+
+
+### Float / Display 를 활용한 단락 나누기
+
+- `display-inline-block``
+  - width / height 값 설정이 필요하다 
+  - 반응형일 경우 `max-width를 사용
+
+> Display 빈 공간 없애기 
+
+``` 
+부모 (최상위 단위)에 폰트 빈 공간을 0으로 변경 후 본문 폰트를 별도로 설정한다 
+```
+
+<br>
+
+- `float-left;``
+  - 단을 아래로 내리려면 최상위 부모에게 "clear-both;" 설정을 해준다
