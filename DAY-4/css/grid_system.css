@@ -1,0 +1,121 @@
+body {
+    /* 본문 폰트 사이즈와 행간 비율 설정 */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* 베이스라인 설정 할 콘텐츠 영역에 설정 */
+.baseline-24px {
+    /* 상하좌우 공간의 여백 설정 - 베이스라인 사이즈 */
+    padding: 24px;
+    /* 컨텐츠 영역의 높이 설정 */
+    height: 100%;
+}
+
+/* 마우스 오버 시 베이스라인 보이게 설정 */
+.baseline-24px:hover {
+    /* 세로 그라데이션으로 베이스라인 설정 */
+    /* background: linear-gradient(transparent 20px, #cdcdcd 20px); */
+    background: linear-gradient(transparent 98%, rgba(205, 205, 205, 1) 98%);
+    /* 베이스라인 사이즈 설정 */
+    /* 본문 사이즈 기준 행간 - 14px(본문) * 1.5(행간비율) = 21px(베이스라인) */
+    background-size: 1px 24px;
+}
+
+
+
+/* Grid Row Module (Clearfix) */
+
+.grid {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+}
+
+.grid::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* columms module */
+
+[class^="col-"] {
+    float: left;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #ad96ff;
+}
+
+.grid [class^="col-"]:last-child {
+    margin-right: 0;
+}
+
+/* 컬럼 폭 구하는 공식 */
+/* ( 최대폭(Grid) 너비 - ( 거터 폭 * ( 컬럼 수 - 1 )) / 컬럼 수 = 컬럼 폭 */
+
+/* 최대폭(grid) 너비 구하는 공식 */
+/* ( 컬럼 폭 * 컬럼 수 ) + ( 거터 폭 * (컬럼 수 - 1)) = 최대폭(Grid) 너비 */
+
+/* 마진(여백) 구하는 공식 */
+/* ( 중단점(breakpoint) 너비 - 최대폭(Grid) 너비 ) / 2 */
+
+/* 그리드 시스템 너비 */
+
+/* 중단점 너비 - 그리드 최대폭-- 1200-1180 = 20*/
+
+/* 픽셀(px)사용 */
+.col-1 { width:80px;}
+.col-2 { width:180px;}
+.col-3 { width:280px;}
+.col-4 { width:380px;}
+.col-5 { width:480px;}
+.col-6 { width:580px;}
+.col-7 { width:680px;}
+.col-8 { width:780px;}
+.col-9 { width:880px;}
+.col-10 { width:980px;}
+.col-11 { width:1080px;}
+.col-12 { width:1180px;}
+
+/* container */
+
+.container {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.contents {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Body에 있는 모든 title class 요소
+.title {
+    color: #444444;
+}
+
+*/
+
+/* Contents 클래스 내 모든 title 요소 */
+/* .contents .title {
+    color: #5029ac;
+} */
+
+/* Contents 클래스 내 title 클래스를 가진 첫번째 자식요소 */
+.contents > .title {
+    color: #b291ff;
+}
+
+.full-area {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 48px;
+    text-align: center;
+    background: #dbc8ff;
+    line-height: 50px;
+}

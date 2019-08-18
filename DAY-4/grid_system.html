@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Grid-System</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid_system.css">
+    <link rel="stylesheet" href="css/typography.css">
+</head>
+<body>
+    <main>
+        <!--[Start] 상단 메뉴 &amp 로고-->
+        <header>
+            <h1 class="title">그리드시스템 설계</h1>
+            <nav>
+                메뉴
+            </nav>
+        </header>
+        <!--[End]  상단 메뉴 &amp 로고-->
+
+        <!--[Start] 컨테이너 영역-->
+        <section>
+            <div class="contents">
+                <h1 class="title">컨텐츠 제목</h1>
+
+                <!-- [Start] 컨텐츠 영역-->
+                
+                <article>
+                    <h2 class="title">컨텐츠 세부 제목</h2>
+                    <div class="grid">
+                    <div class="col-3">내용</div>
+                    <div class="col-3">내용</div>
+                    <div class="col-3">내용</div>
+                    <div class="col-3">내용</div>
+                    </div>
+                </article>
+                <!-- [End] 컨텐츠 영역-->
+            </div>
+            <!-- [Start] 컨텐츠 영역-->
+            <article class="full-area">
+                <div>내용</div>
+            </article>
+            <!-- [End] 컨텐츠 영역-->
+
+            <!-- [Start] 컨텐츠 영역-->
+            <article class="grid">
+                <div class="col-6">내용</div>
+                <div class="col-6"> 내용</div>
+            </article>
+            <!-- [End] 컨텐츠 영역-->
+
+            <div class="contents">
+                <!-- [Start] 컨텐츠 영역-->
+                <article class="grid">
+                    <div class="col-2">내용</div>
+                    <div class="col-2">내용</div>
+                    <div class="col-2">내용</div>
+                    <div class="col-2">내용</div>
+                    <div class="col-2">내용</div>
+                    <div class="col-2">내용</div>
+                </article>
+                <!-- [End] 컨텐츠 영역-->
+            </div>
+
+        </section>
+
+        <!--[End] 컨테이너 영역-->
+
+        <!--[Start] 푸터 영역-->
+        <footer class="grid">
+            <div class="col-4">내용</div>
+            <div class="col-4">내용</div>
+            <div class="col-4">내용</div>
+        </footer>
+        <!--[End] 푸터 영역-->
+    </main>
+</body>
+</html>

@@ -1,0 +1,140 @@
+html {
+    font-size:10px;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5c5c5c;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.typography-wrap:hover {
+    background-image: url("../images/baseline_24.png");
+}
+
+.vertical p{ 
+    /* background: #c6c7d8; */
+    margin-bottom: 24px;
+}
+
+
+h1 { 
+    /* font-size: 61.035156px; */
+
+    /* em 단위 설정 
+    font-size: 3.814698em;
+    padding: 2px 0; */
+
+    /* rem 단위 설정 */
+    font-size: 6.103rem;
+    padding: 2px 0;
+    margin-bottom: 48px;
+    
+}
+h2 { 
+    /* font-size: 48.828125px; */
+
+    /* em 단위 설정 
+    font-size: 3.051758em; */
+
+    /* rem 단위 설정 */
+    font-size: 4.882rem;
+    padding: 1px 0;
+    display: inline-block;
+}
+h3 {
+    /* font-size: 39.0625px; */
+
+    /* em 단위 설정 
+    font-size: 2.441406em;
+    padding: 7px 0; */
+
+    /* rem 단위 설정 */
+    font-size: 3.906rem;
+    padding: 7px 0; 
+}
+h4 {
+    /* font-size: 31.25px; */
+
+    /* em 단위 설정 
+    font-size: 1.953125em;
+    padding: 1px 0; */
+
+    /* rem 단위 설정 */
+    font-size: 3.125rem; 
+    padding: 1px 0;
+}
+h5 {
+    /* font-size: 25px; */
+
+    /* em 단위 설정 
+    font-size: 1.5625em;
+    padding: 6px 0; */
+
+    /* rem 단위 설정 */
+    font-size: 2.5rem;
+    padding: 6px 0;
+}
+h6 {
+    /* px 단위 설정 */
+    /* font-size: 20px; */
+
+    /* em 단위 설정 
+    font-size: 1.25em;
+    padding: 8px 0; */
+
+    /* rem 단위 설정 */
+    font-size: 2rem; 
+    padding: 8px 0;
+}
+
+/* 레이아웃 설정 */
+/* 단락 나누기 */
+.typography-wrap, .text-area-wrap {
+    width: 1360px;
+    margin: 0 auto;
+    padding: 24px 35px;
+
+}
+.vertical-48p {
+    margin-bottom: 48px;
+}
+.vertical-24p {
+    margin-bottom: 24px;
+    padding: 12px 0;
+}
+/*
+.text-area {
+        display: inline-block;
+        gutter 30px
+        width: 410px;
+        height: 142px;
+        margin-right: 30px;
+}*/
+
+/* Float 설정 */
+.text-area {
+        float: left;
+        width: 410px;
+        margin-right: 60px;
+        border: 1px solid #000;
+        box-sizing: border-box;
+        padding: 11px;
+}
+
+.text-area:last-child {
+        margin-right: 0;
+}
+
+/* float 해제 - Clearfix */
+
+.clearfix::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.text-area-wrap:last-child .text-area {
+    width: 630px;
+}
