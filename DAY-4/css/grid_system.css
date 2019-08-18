@@ -48,7 +48,7 @@ body {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background: #ad96ff;
+    background: #c7d4ff;
 }
 
 .grid [class^="col-"]:last-child {
@@ -116,6 +116,6 @@ body {
     height: 50px;
     margin-bottom: 48px;
     text-align: center;
-    background: #dbc8ff;
+    background: #e3d3ff;
     line-height: 50px;
 }
