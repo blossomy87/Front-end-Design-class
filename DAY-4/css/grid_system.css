@@ -55,6 +55,8 @@ body {
     margin-right: 0;
 }
 
+(12*
+
 /* 컬럼 폭 구하는 공식 */
 /* ( 최대폭(Grid) 너비 - ( 거터 폭 * ( 컬럼 수 - 1 )) / 컬럼 수 = 컬럼 폭 */
 
@@ -64,12 +66,14 @@ body {
 /* 마진(여백) 구하는 공식 */
 /* ( 중단점(breakpoint) 너비 - 최대폭(Grid) 너비 ) / 2 */
 
-/* 그리드 시스템 너비 */
+/* 컬럼 값 픽셀 단위 퍼센트로 구하는 공식 */
+/* ( 컬럼 폭 / 최대폭(Grid) ) * 100%
 
-/* 중단점 너비 - 그리드 최대폭-- 1200-1180 = 20*/
+
+
 
 /* 픽셀(px)사용 */
-.col-1 { width:80px;}
+/*.col-1 { width:80px;}
 .col-2 { width:180px;}
 .col-3 { width:280px;}
 .col-4 { width:380px;}
@@ -80,7 +84,70 @@ body {
 .col-9 { width:880px;}
 .col-10 { width:980px;}
 .col-11 { width:1080px;}
-.col-12 { width:1180px;}
+.col-12 { width:1180px;}*/
+
+
+
+/* 픽셀(px) 연산 (Calc)사용 */
+/*.col-1 { width: calc (80px * 1);}
+.col-2 { width: calc (80px * 2 + (20 * 1));}
+.col-3 { width: calc (80px * 3 + (20 * 2));}
+.col-4 { width: calc (80px * 4 + (20 * 3));}
+.col-5 { width: calc (80px * 5 + (20 * 4));}
+.col-6 { width: calc (80px * 6 + (20 * 5));}
+.col-7 { width: calc (80px * 7 + (20 * 6));}
+.col-8 { width: calc (80px * 8 + (20 * 7));}
+.col-9 { width: calc (80px * 9 + (20 * 8));}
+.col-10 {width: calc (80px * 10 +(20 * 9));}
+.col-11 {width: calc (80px * 11 +(20 * 10));}
+.col-12 {width: calc (80px * 12 +(20 * 11));}*/
+
+
+/* 컬럼 값 픽셀(px) 단위 퍼센트(%) 사용 */
+/*.col-1 { width:6.7797%;}
+.col-2 { width:15.2542%;}
+.col-3 { width:23.7288%;}
+.col-4 { width:32.2034%;}
+.col-5 { width:40.678%;}
+.col-6 { width:49.1525%;}
+.col-7 { width:57.6271%;}
+.col-8 { width:66.1017%;}
+.col-9 { width:74.5763%;}
+.col-10 {width:83.0508%;}
+.col-11 {width:91.5254%;}
+.col-12 {width:100%;} */
+
+/* 컬럼 값 픽셀(px) 단위 퍼센트(%) 연산(Calc) 사용 ---- 1180 */
+.col-1 { width: calc((80 / 1180) * 100%);}
+.col-2 { width: calc((180 / 1180) * 100%);}
+.col-3 { width: calc((280 / 1180) * 100%);}
+.col-4 { width: calc((380 / 1180) * 100%);}
+.col-5 { width: calc((480 / 1180) * 100%);}
+.col-6 { width: calc((580 / 1180) * 100%);}
+.col-7 { width: calc((680 / 1180) * 100%);}
+.col-8 { width: calc((780 / 1180) * 100%);}
+.col-9 { width: calc((880 / 1180) * 100%);}
+.col-10 {width: calc((980 / 1180) * 100%);}
+.col-11 {width: calc((1080 / 1180) * 100%);}
+.col-12 {width: calc((1180 / 1180) * 100%);}
+
+
+/* 컬럼 값 픽셀(px) 단위 퍼센트(%) 연산(Calc) 사용 ---- 768 */
+.col-1 { width: calc((80 / 1180) * 100%);}
+.col-2 { width: calc((180 / 1180) * 100%);}
+.col-3 { width: calc((280 / 1180) * 100%);}
+.col-4 { width: calc((380 / 1180) * 100%);}
+.col-5 { width: calc((480 / 1180) * 100%);}
+.col-6 { width: calc((580 / 1180) * 100%);}
+.col-7 { width: calc((680 / 1180) * 100%);}
+.col-8 { width: calc((780 / 1180) * 100%);}
+.col-9 { width: calc((880 / 1180) * 100%);}
+.col-10 {width: calc((980 / 1180) * 100%);}
+.col-11 {width: calc((1080 / 1180) * 100%);}
+.col-12 {width: calc((1180 / 1180) * 100%);}
+
+
+
 
 /* container */
 
