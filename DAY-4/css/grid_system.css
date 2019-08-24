@@ -18,21 +18,16 @@ body {
     /* background: linear-gradient(transparent 20px, #cdcdcd 20px); */
     background: linear-gradient(transparent 98%, rgba(205, 205, 205, 1) 98%);
     /* 베이스라인 사이즈 설정 */
-    /* 본문 사이즈 기준 행간 - 14px(본문) * 1.5(행간비율) = 21px(베이스라인) */
-    background-size: 1px 24px;
+    /* 본문 사이즈 기준 행간 - 14px(본문) * 1.5(행간비율) = 2x(베이스라인) */
+    background-siz: 1px 24px;
 }
 
-
-
-/* Grid Row Module (Clearfix) */
-
+* Grid Row Module (Clearfix) */
 .grid {
-    width: 1180px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 48px;
-}
-
+   width: 1180px;
+   margin-right: auto;
+  margin-left: auto;  margin-bottom: 48px;
+}p
 .grid::after{
     content: '';
     display: block;
@@ -55,7 +50,7 @@ body {
     margin-right: 0;
 }
 
-(12*
+
 
 /* 컬럼 폭 구하는 공식 */
 /* ( 최대폭(Grid) 너비 - ( 거터 폭 * ( 컬럼 수 - 1 )) / 컬럼 수 = 컬럼 폭 */
@@ -71,9 +66,10 @@ body {
 
 
 
+/* --------- 1180 -------------------- */
 
-/* 픽셀(px)사용 */
-/*.col-1 { width:80px;}
+/* 픽셀(px)사용 
+.col-1 { width:80px;}
 .col-2 { width:180px;}
 .col-3 { width:280px;}
 .col-4 { width:380px;}
@@ -87,9 +83,8 @@ body {
 .col-12 { width:1180px;}*/
 
 
-
-/* 픽셀(px) 연산 (Calc)사용 */
-/*.col-1 { width: calc (80px * 1);}
+/* 픽셀(px) 연산 (Calc)사용 
+.col-1 { width: calc (80px * 1);}
 .col-2 { width: calc (80px * 2 + (20 * 1));}
 .col-3 { width: calc (80px * 3 + (20 * 2));}
 .col-4 { width: calc (80px * 4 + (20 * 3));}
@@ -100,8 +95,8 @@ body {
 .col-9 { width: calc (80px * 9 + (20 * 8));}
 .col-10 {width: calc (80px * 10 +(20 * 9));}
 .col-11 {width: calc (80px * 11 +(20 * 10));}
-.col-12 {width: calc (80px * 12 +(20 * 11));}*/
-
+.col-12 {width: calc (80px * 12 +(20 * 11));}
+*/
 
 /* 컬럼 값 픽셀(px) 단위 퍼센트(%) 사용 */
 /*.col-1 { width:6.7797%;}
@@ -117,7 +112,7 @@ body {
 .col-11 {width:91.5254%;}
 .col-12 {width:100%;} */
 
-/* 컬럼 값 픽셀(px) 단위 퍼센트(%) 연산(Calc) 사용 ---- 1180 */
+/* 컬럼 값 픽셀(px) 단위 퍼센트(%) 연산(Calc) 사용 
 .col-1 { width: calc((80 / 1180) * 100%);}
 .col-2 { width: calc((180 / 1180) * 100%);}
 .col-3 { width: calc((280 / 1180) * 100%);}
@@ -130,22 +125,39 @@ body {
 .col-10 {width: calc((980 / 1180) * 100%);}
 .col-11 {width: calc((1080 / 1180) * 100%);}
 .col-12 {width: calc((1180 / 1180) * 100%);}
+---- 1180 */
 
 
-/* 컬럼 값 픽셀(px) 단위 퍼센트(%) 연산(Calc) 사용 ---- 768 */
-.col-1 { width: calc((80 / 1180) * 100%);}
-.col-2 { width: calc((180 / 1180) * 100%);}
-.col-3 { width: calc((280 / 1180) * 100%);}
-.col-4 { width: calc((380 / 1180) * 100%);}
-.col-5 { width: calc((480 / 1180) * 100%);}
-.col-6 { width: calc((580 / 1180) * 100%);}
-.col-7 { width: calc((680 / 1180) * 100%);}
-.col-8 { width: calc((780 / 1180) * 100%);}
+/* ----------- 768 ------------------------ */
+
+/*
+.col-1 { width:px;}
+.col-2 { width:px;}
+.col-3 { width:px;}
+.col-4 { width:px;}
+.col-5 { width:px;}
+.col-6 { width:px;}
+.col-7 { width:px;}
+.col-8 { width:px;}
+.col-9 { width:px;}
+.col-10 { width:px;}
+.col-11 { width:px;}
+.col-12 { width:px;}*/
+
+/* 컬럼 값 픽셀(px) 단위 퍼센트(%) 연산(Calc) 사용 --
+col-1 { width: calc((80 / 1180) * 100%);}
+col-2 { width: calc((180 / 1180) * 100%);}
+col-3 { width: calc((280 / 1180) * 100%);}
+col-4 { width: calc((380 / 1180) * 100%);}
+col-5 { width: calc((480 / 1180) * 100%);}
+.ol-6 { width: calc((580 / 1180) * 100%);}
+.l-7 { width: calc((680 / 1180) * 100%);}
+.pol-8 { width: calc((780 / 1180) * 100%);}
 .col-9 { width: calc((880 / 1180) * 100%);}
 .col-10 {width: calc((980 / 1180) * 100%);}
 .col-11 {width: calc((1080 / 1180) * 100%);}
 .col-12 {width: calc((1180 / 1180) * 100%);}
-
+-- 768 */
 
 
 
