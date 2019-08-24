@@ -2,7 +2,7 @@
 
 ## 1. 그리드 시스템
 
-![반응형 그리드 시스템](../image/readme_responsive_ex.png)
+![반응형 그리드 시스템](./image/readme_responsive_ex.png)
 
 ## 그리드 시스템 설정 공식
 
