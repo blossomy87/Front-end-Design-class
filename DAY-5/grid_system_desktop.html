@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Grid-System</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <!--  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />-->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/grid_system_desktop.css">
+    <link rel="stylesheet" href="css/typography.css">
+</head>
+<body>
+    <main>
+        <!--[Start] 상단 메뉴 &amp 로고-->
+        <header>
+        <h1 class="m-col-2 t-col-2 d-col-2">
+            <span class="fas fa-arrow-alt-circle-right"></span>
+        </h1>
+        <div class="menu m-col-1 col-last">
+            <button type="button" class="fas fa-bars"></button>
+        </div>
+            <nav>
+                <div class="logo">
+                    <img src="./image/myrealtrip_logo.png" alt="logo">
+                </div>
+                  
+                <div class="right-menu">
+                    <div class="add-partner" alt="파트너 등록하기">
+                    파트너 등록하기
+                  </div>
+
+                   <div class="login" alt="로그인">
+                    로그인
+                  </div>
+                  <div class="join-us" alt="회원가입">
+                   회원가입
+                  </div>
+                  
+                </div>
+            </nav>
+            <nav class="top-category">
+                <div class="cate-tour">
+                    투어&티켓
+                </div>
+                <div class="cate-ticket">
+                    항공권
+                </div>
+                <div class="cate-rooms">
+                    숙소
+                </div>
+                <div class="cate-sp-offer">
+                    특가여행
+                </div>
+                <div class="cate-ready">
+                    여행준비
+                </div>
+            </nav>
+        </header>
+        <!--[End]  상단 메뉴 &amp 로고-->
+   
+        <!--[Start] 컨테이너 영역-->
+        <section>
+            <div class="full-area">
+                <h2 class="title">어디로 떠나세요?</h2>
+                <div class="search-module">
+                   <input id="search-bar" class="search-bar-module" type="search" placeholder="여행지나 상품을 검색해보세요!">
+                </div>
+            </div>  
+            <div class="contents">
+                <!-- [Start] 컨텐츠 영역-->
+                <h2>2019.08.25</h2>
+                <article class="grid">
+                    <div class="m-col-1 t-col-2 d-col-3">내용</div>
+                    <div class="m-col-1 t-col-1 d-col-3">내용</div>
+                    <div class="m-col-1 t-col-1 d-col-3">내용</div>
+                    <div class="m-col-1 t-col-2 d-col-3">내용</div>
+                </article>
+                <!-- [End] 컨텐츠 영역-->
+            </div>
+
+        </section>
+        <section>
+            <div class="contents">
+                <!-- [Start] 컨텐츠 영역-->
+                <article class="grid">
+                    <div class="main-banner">
+                        
+                    </div>
+                </article>
+                <!-- [End] 컨텐츠 영역-->
+            </div>
+        </section>
+        <!--[End] 컨테이너 영역-->
+
+        <!--[Start] 푸터 영역-->
+        <footer class="grid">
+            <div class="col-4">내용</div>
+            <div class="col-4">내용</div>
+            <div class="col-4">내용</div>
+        </footer>
+        <!--[End] 푸터 영역-->
+    </main>
+</body>
+</html>

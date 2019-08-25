@@ -1,0 +1,274 @@
+body {
+    /* 본문 폰트 사이즈와 행간 비율 설정 */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background: linear-gradient(transparent 0%, #33A3FF 0%);
+    padding: 4% 0 6% 4%;
+    border-bottom: 1px; border-color: #0087f5;
+}
+
+.menu {
+    float: right;
+    display: block;
+    clear: both;
+    color: #fff;
+}
+
+header .right-menu{
+    display: inline-block;
+}
+
+.join-us {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    color: #fff;
+    border: 1px solid #fff; padding: 10px 20px;
+}
+
+.login {
+    position: absolute;
+    right: 225px;
+    top: 40px;
+    color: #fff;
+    padding: 10px;
+}
+
+.add-partner {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    color: #fff;
+    padding: 10px;
+}
+
+
+nav .top-category {
+     display: inline-block;
+}
+
+[class^="cate-"] {
+    float: left;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+}
+
+
+
+/* 베이스라인 설정 할 콘텐츠 영역에 설정 */
+.baseline-10px {
+    /* 상하좌우 공간의 여백 설정 - 베이스라인 사이즈 */
+    padding: 10px;
+    /* 컨텐츠 영역의 높이 설정 */
+    height: 100%;
+}
+
+/* 마우스 오버 시 베이스라인 보이게 설정 */
+.baseline-10px:hover {
+    /* 세로 그라데이션으로 베이스라인 설정 */
+    /* background: linear-gradient(transparent 20px, #cdcdcd 20px); */
+    background: linear-gradient(transparent 98%, rgba(205, 205, 205, 1) 98%);
+    /* 베이스라인 사이즈 설정 */
+    /* 본문 사이즈 기준 행간 - 14px(본문) * 1.5(행간비율) = 2x(베이스라인) */
+    background-size: 1px 10px;
+}
+
+/* Grid Row Module (Clearfix) */
+.grid {
+    margin-right: auto;
+    margin-left: auto;
+}
+p.grid::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* columms module */
+
+[class^="m-col-"],
+[class^="t-col-"],
+[class^="d-col-"] {
+    float: left;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #c7d4ff;
+    margin-bottom: 20px;
+}
+
+
+.col-last {
+    float: right;
+    margin-right: 0;
+    vertical-align: top;
+}
+
+.grid [class^="m-col-"]:last-child, 
+.grid [class^="t-col-"]:last-child, 
+.grid [class^="d-col-"]:last-child {
+    margin-right: 0;
+}
+
+/* ---------------------------------------------------------------*
+
+/* 컬럼 폭 구하는 공식 */
+/* ( 최대폭(Grid) 너비 - ( 거터 폭 * ( 컬럼 수 - 1 )) / 컬럼 수 = 컬럼 폭 */
+
+/* 최대폭(grid) 너비 구하는 공식 */
+/* ( 컬럼 폭 * 컬럼 수 ) + ( 거터 폭 * (컬럼 수 - 1)) = 최대폭(Grid) 너비 */
+
+/* 마진(여백) 구하는 공식 */
+/* ( 중단점(breakpoint) 너비 - 최대폭(Grid) 너비 ) / 2 */
+
+/* 컬럼 값 픽셀 단위 퍼센트로 구하는 공식 */
+/* ( 컬럼 폭 / 최대폭(Grid) ) * 100%
+
+/* ---------------------------------------------------------------*/
+
+
+/* ---------------------------------------------------------------*
+ * Device : Mobile
+ * Screen : 480 이상 해상도 대응 
+ * 컬럼 (4) / 거터 (20px) / 최대 폭 (480px) / 마진 (24px)
+------------------------------------------------------------------*/
+
+.grid {
+    max-width: 480px;
+    margin-bottom: 48px;
+}
+.m-col-1 { width: calc(( 480 - (20*0) / 4 ) * 100%);}
+.m-col-2 { width: calc(( 480 - (20*1) / 4 ) * 100%);}
+.m-col-3 { width: calc(( 480 - (20*2) / 4 ) * 100%);}
+.m-col-4 { width: calc(( 480 - (20*3) / 4 ) * 100%);}
+
+
+
+/* ---------------------------------------------------------------*
+ * Device : Tablet
+ * Screen : 768 이상 해상도 대응 
+ * 컬럼 (6) / 거터 (20px) / 최대 폭 (768px) / 마진(76px)
+------------------------------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+.grid {
+    max-width: 1180px;
+    margin-bottom: 48px;
+}
+
+.t-col-1 { width: 14.4965%;}
+.t-col-2 { width: 14.9306%;}
+.t-col-3 { width: 15.3646%;}
+.t-col-4 { width: 15.7986%;}
+.t-col-5 { width: 16.2326%;}
+.t-col-6 { width: 16.6667%;}
+}
+
+/* ---------------------------------------------------------------*
+ * Device : Desktop
+ * Screen : 1360 이상 해상도 대응 
+ * 컬럼 (12) / 거터 (20px) / 최대 폭 (1360px) / 마진 (90px)    
+------------------------------------------------------------------*/
+
+@media (min-width: 769px) {
+
+.grid {
+        max-width: 1180px;
+        margin-bottom: 48px;
+ }
+
+.d-col-1 { width:6.7797%;}
+.d-col-2 { width:15.2542%;}
+.d-col-3 { width:23.7288%;}
+.d-col-4 { width:32.2034%;}
+.d-col-5 { width:40.678%;}
+.d-col-6 { width:49.1525%;}
+.d-col-7 { width:57.6271%;}
+.d-col-8 { width:66.1017%;}
+.d-col-9 { width:74.5763%;}
+.d-col-10 {width:83.0508%;}
+.d-col-11 {width:91.5254%;}
+.d-col-12 {width:100%;}
+}
+
+
+
+
+/* container */
+
+.container {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.contents {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Body에 있는 모든 title class 요소
+.title {
+    color: #444444;
+}
+
+*/
+
+/* Contents 클래스 내 모든 title 요소 */
+/* .contents .title {
+    color: #5029ac;
+} */
+
+/* Contents 클래스 내 title 클래스를 가진 첫번째 자식요소 */
+.full-area > .title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+
+.search-module {
+    background-color:#33A3FF;
+    height: 100%;
+}
+#search-bar {
+    background-color: hsla(0, 0%, 100%,.1);
+    border: 1px solid hsla(0, 0%, 100%,.4);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 300px;
+    height: 56px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: center;
+    margin: 10px;
+}
+input::placeholder {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+.full-area {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 48px;
+    text-align: center;
+    background: #33A3FF;
+    line-height: 50px;
+}
+
+.main-banner {
+    width: 500px;
+    height: 200px;
+    background-color: #fefefe;
+    background-size: contain;
+}
