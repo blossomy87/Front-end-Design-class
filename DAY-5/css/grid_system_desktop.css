@@ -145,9 +145,9 @@ p.grid::after{
     max-width: 480px;
     margin-bottom: 48px;
 }
-.m-col-1 { width: calc(( 480 - (20*0) / 4 ) * 100%);}
-.m-col-2 { width: calc(( 480 - (20*1) / 4 ) * 100%);}
-.m-col-3 { width: calc(( 480 - (20*2) / 4 ) * 100%);}
+.m-col-1 { width: calc(( 480 - (20*0) / 1 ) * 100%);}
+.m-col-2 { width: calc(( 480 - (20*1) / 2)  * 100%);}
+.m-col-3 { width: calc(( 480 - (20*2) / 3 ) * 100%);}
 .m-col-4 { width: calc(( 480 - (20*3) / 4 ) * 100%);}
 
 
@@ -160,17 +160,17 @@ p.grid::after{
 
 @media (min-width: 481px) and (max-width: 768px) {
 .grid {
-    max-width: 1180px;
+    max-width: 768px;
     margin-bottom: 48px;
-}
+}}
 
-.t-col-1 { width: 14.4965%;}
-.t-col-2 { width: 14.9306%;}
-.t-col-3 { width: 15.3646%;}
-.t-col-4 { width: 15.7986%;}
-.t-col-5 { width: 16.2326%;}
-.t-col-6 { width: 16.6667%;}
-}
+.t-col-1 { width: calc(( 768 - (20*0) / 1) * 100%);}
+.t-col-2 { width: calc(( 768 - (20*1) / 2) * 100%);}
+.t-col-3 { width: calc(( 768 - (20*2) / 3) * 100%);}
+.t-col-4 { width: calc(( 768 - (20*3) / 4) * 100%);}
+.t-col-5 { width: calc(( 768 - (20*4) / 5) * 100%);}
+.t-col-6 { width: calc(( 768 - (20*5) / 6) * 100%);}
+
 
 /* ---------------------------------------------------------------*
  * Device : Desktop
@@ -183,21 +183,20 @@ p.grid::after{
 .grid {
         max-width: 1180px;
         margin-bottom: 48px;
- }
+ }}
 
-.d-col-1 { width:6.7797%;}
-.d-col-2 { width:15.2542%;}
-.d-col-3 { width:23.7288%;}
-.d-col-4 { width:32.2034%;}
-.d-col-5 { width:40.678%;}
-.d-col-6 { width:49.1525%;}
-.d-col-7 { width:57.6271%;}
-.d-col-8 { width:66.1017%;}
-.d-col-9 { width:74.5763%;}
-.d-col-10 {width:83.0508%;}
-.d-col-11 {width:91.5254%;}
-.d-col-12 {width:100%;}
-}
+.d-col-1 { width: calc(( 1180 - (20*0) / 1) * 100%);}
+.d-col-2 { width: calc(( 1180 - (20*1) / 2) * 100%);}
+.d-col-3 { width: calc(( 1180 - (20*2) / 3) * 100%);}
+.d-col-4 { width: calc(( 1180 - (20*3) / 4) * 100%);}
+.d-col-5 { width: calc(( 1180 - (20*4) / 5) * 100%);}
+.d-col-6 { width: calc(( 1180 - (20*5) / 6) * 100%);}
+.d-col-7 { width: calc(( 1180 - (20*6) / 7) * 100%);}
+.d-col-8 { width: calc(( 1180 - (20*7) / 8) * 100%);}
+.d-col-9 { width: calc(( 1180 - (20*8) / 9) * 100%);}
+.d-col-10 {width: calc(( 1180 - (20*9) / 10) * 100%);}
+.d-col-11 {width: calc(( 1180 - (20*10) / 11) * 100%)}
+.d-col-12 {width: calc(( 1180 - (20*11) / 12) * 100%);}
 
 
 
