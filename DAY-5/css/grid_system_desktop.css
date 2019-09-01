@@ -162,7 +162,7 @@ p.grid::after{
 .grid {
     max-width: 768px;
     margin-bottom: 48px;
-}}
+}
 
 .t-col-1 { width: calc(( 768 - (20*0) / 1) * 100%);}
 .t-col-2 { width: calc(( 768 - (20*1) / 2) * 100%);}
@@ -171,7 +171,7 @@ p.grid::after{
 .t-col-5 { width: calc(( 768 - (20*4) / 5) * 100%);}
 .t-col-6 { width: calc(( 768 - (20*5) / 6) * 100%);}
 
-
+}
 /* ---------------------------------------------------------------*
  * Device : Desktop
  * Screen : 1360 이상 해상도 대응 
@@ -183,7 +183,7 @@ p.grid::after{
 .grid {
         max-width: 1180px;
         margin-bottom: 48px;
- }}
+ }
 
 .d-col-1 { width: calc(( 1180 - (20*0) / 1) * 100%);}
 .d-col-2 { width: calc(( 1180 - (20*1) / 2) * 100%);}
@@ -198,7 +198,7 @@ p.grid::after{
 .d-col-11 {width: calc(( 1180 - (20*10) / 11) * 100%)}
 .d-col-12 {width: calc(( 1180 - (20*11) / 12) * 100%);}
 
-
+}
 
 
 /* container */
